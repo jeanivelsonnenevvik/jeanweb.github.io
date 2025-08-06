@@ -1,0 +1,39 @@
+.navmenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*padding: 0px 40px; /* adicionado espaçamento lateral */
+  }
+  
+  .navmenu .logo img {
+    height: 10px; /* adjust as needed */
+    display: block;
+  }
+  
+  .navmenu ul {
+    display: flex;
+    list-style: none;
+    gap: 20px; /* spacing between menu items */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navmenu ul li a {
+    text-decoration: none;
+    color: White;
+    padding: 8px 12px;
+    /*transition: background-color 0.3s, color 0.3s;*/
+  }
+
+  #depoimentos {
+    scroll-margin-top: 80px; /* ou ajuste conforme a altura do seu menu fixo */
+  }
+  
+  
+  /* Logo + texto "NEVVIK" juntos */
+  .navmenu .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* espaço entre logo e texto */
+  }
+  

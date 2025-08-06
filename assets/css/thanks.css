@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.topo {
+  background-color: #0d0d0d;
+  padding: 20px 0;
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.conteudo {
+  padding: 100px 20px 60px 20px;
+}
+
+.titulo {
+  font-size: 48px;
+  color: #28a745;
+}
+
+.mensagem {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #555;
+}
+
+.btn-voltar {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 24px;
+  background-color: #ff4800;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn-voltar:hover {
+  background-color: #d63a00;
+}
+
+.rodape {
+  background-color: #0d0d0d;
+  color: #ccc;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
